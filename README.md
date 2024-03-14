@@ -212,6 +212,14 @@ terragrunt-atlantis-config generate --autoplan --output ./atlantis.yaml
 
 Finally, check the log output (or your output file) for the YAML.
 
+(Brew): Install on MacOS with `brew`
+
+```bash
+brew install terragrunt-atlantis-config
+```
+
+Please note that there might be differences between the latest release in Homebrew and Github. This is because Homebrew is not updated automatically on every Github release. Please see the "Contributing" section on how to update Homebrew.
+
 ## Contributing
 
 To test any changes you've made, run `make gotestsum` (or `make test` for standard golang testing).
